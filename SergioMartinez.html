@@ -13,7 +13,7 @@
 
 <body data-tema="claro" data-idioma="es">
 
-    <!-- ===== CABECERA + NAVEGACIÓN ===== -->
+    <!-- CABECERA + NAVEGACIÓN -->
     <!-- Contiene el menú principal y los botones de ajustes -->
     <header class="cabecera">
         <nav class="navegacion">
@@ -28,13 +28,13 @@
 
             <!-- Botones (tema / idioma) -->
             <div class="controles">
-                <button id="boton-tema" class="boton-control" data-t="modo_oscuro">Modo Oscuro</button>
+                <button id="boton-tema" class="boton-control">claro</button>
                 <button id="boton-idioma" class="boton-control">EN</button>
             </div>
         </nav>
     </header>
 
-    <!-- ===== SECCIÓN INICIO (Presentación) ===== -->
+    <!-- SECCIÓN INICIO (Presentación) -->
     <!-- Presentación principal con foto y botón para abrir CV -->
     <section id="inicio" class="seccion">
         <div class="contenedor-avatar">
@@ -48,14 +48,17 @@
         </p>
 
         <p data-t="descripcion_inicio">
-            Estudiante de 2º de DAW...
-        </p>
+            Soy estudiante de 2º de Desarrollo de Aplicaciones Web, apasionado por crear soluciones modernas y
+            funcionales. Me interesa el desarrollo full-stack y disfruto trabajando tanto en la parte visual como en la
+            lógica interna de las aplicaciones. Actualmente sigo formándome en Java, PHP, JavaScript y frameworks como
+            Laravel y React, con el objetivo de convertirme en un gran desarrollador y preparado para afrontar
+            nuevos retos. </p>
 
         <a href="#proyectos" class="boton" data-t="ver_proyectos">Ver Proyectos</a>
         <button class="boton" id="ver-cv-btn" data-t="ver_cv">Ver CV</button>
     </section>
 
-    <!-- ===== SECCIÓN PROYECTOS ===== -->
+    <!-- SECCIÓN PROYECTOS -->
     <!-- Tarjetas que muestran los trabajos realizados -->
     <section id="proyectos" class="seccion">
         <h2 data-t="proyectos">Proyectos</h2>
@@ -68,7 +71,8 @@
                     <p class="tecnologias">PHP • Laravel • MySQL</p>
 
                     <div class="enlaces-proyecto">
-                        <a class="boton-proyecto" href="https://github.com/SMDSFC2005/videoclub" target="_blank" data-t="codigo">Código</a>
+                        <a class="boton-proyecto" href="https://github.com/SMDSFC2005/videoclub" target="_blank"
+                            data-t="codigo">Código</a>
                         <a class="boton-proyecto boton-deshabilitado" aria-disabled="true" data-t="demo">Demo</a>
                     </div>
                 </div>
@@ -76,7 +80,7 @@
         </div>
     </section>
 
-    <!-- ===== SECCIÓN SOBRE MÍ ===== -->
+    <!-- SECCIÓN SOBRE MÍ -->
     <!-- Información personal y listado de habilidades -->
     <section id="sobre-mi" class="seccion">
         <h2 data-t="titulo_sobremi">Sobre mí</h2>
@@ -104,7 +108,7 @@
         </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
+    <!-- FOOTER -->
     <!-- Enlaces a redes (GitHub, LinkedIn, email) -->
     <footer class="pie-pagina">
         <div class="footer-links">
@@ -114,7 +118,7 @@
         </div>
     </footer>
 
-    <!-- ===== MODAL (CV) ===== -->
+    <!-- MODAL (CV) -->
     <!-- Ventana emergente con iframe para ver el PDF -->
     <div id="modal" class="modal-overlay" aria-hidden="true">
         <div class="modal">
@@ -135,7 +139,6 @@
         </div>
     </div>
 
-    <!-- JS externo -->
     <script src="js/script.js"></script>
 </body>
 
